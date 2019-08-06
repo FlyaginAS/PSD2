@@ -1,0 +1,60 @@
+.twitter{
+  min-height: 240px;
+  background-color: #f5c507;
+  display: flex;
+  flex-flow: row wrap;
+  .twitter-logo{
+    flex: 1 1 290px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+      img{
+
+      }
+  }
+  .twits{
+    flex: 1 1 290px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    p{
+      width: 300px;
+      padding:10px;
+      padding-left: 40px;
+      font: 13px/1.5 Arial, sans-serif;
+      color: #8f8e8e;
+      background-image: url("../img/twits-border.png");
+      background-repeat: no-repeat;
+      background-position: 10px 8px;
+    }
+    input{
+      font-size: 16px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #d0a806;
+        border-radius: 10px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+        background-color: rgb(255, 255, 255);
+        opacity: 0.6;
+        box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
+        width: 268px;
+        height: 27px;
+
+    }
+    input[type='submit']{
+      border-width: 1px;
+      border-color: #d0a806;
+      width:70px;
+      height: 27px;
+      border-radius: 10px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      background-image: linear-gradient(to bottom, #e9a826,  #d08f0c);
+      //font-size: 16px;
+      //color: white;
+    }
+  }
+}

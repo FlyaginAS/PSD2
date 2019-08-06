@@ -1,0 +1,82 @@
+.basket, .basket_white, .facebook_icon, .heans_big, .jeans_small, .levis_tarek_reda, .pit, .rss, .tie, .twitter, .s-301_large, .activitee_large, .bally_large{
+	background: url(sprites.png) no-repeat;
+}
+
+.basket{
+	background-position: -321px -197px ;
+	width: 29px;
+	height: 26px;
+}
+
+.basket_white{
+	background-position: -321px -197px ;
+	width: 29px;
+	height: 26px;
+}
+
+.facebook_icon{
+	background-position: -321px -197px ;
+	width: 15px;
+	height: 32px;
+}
+
+.heans_big{
+	background-position: -152px 0;
+	width: 497px;
+	height: 477px;
+}
+
+.jeans_small{
+	background-position: -826px 0;
+	width: 180px;
+	height: 172px;
+}
+
+.levis_tarek_reda{
+	background-position: 0 -500px ;
+	width: 350px;
+	height: 171px;
+}
+
+.pit{
+	background-position: -903px -220px ;
+	width: 12px;
+	height: 11px;
+}
+
+.rss{
+	background-position: -828px -205px ;
+	width: 31px;
+	height: 32px;
+}
+
+.tie{
+	background-position: -671px -200px ;
+	width: 81px;
+	height: 122px;
+}
+
+.twitter{
+	background-position: -759px -209px ;
+	width: 44px;
+	height: 32px;
+}
+
+.s-301_large{
+	background-position: -663px 0;
+	width: 143px;
+	height: 184px;
+}
+
+.activitee_large{
+	background-position: -866px -304px ;
+	width: 132px;
+	height: 245px;
+}
+
+.bally_large{
+	background-position: 0 0;
+	width: 135px;
+	height: 159px;
+}
+

@@ -1,0 +1,25 @@
+
+  nav{
+    background-color: black;
+    ul{
+      list-style-type: none;
+      max-width: 440px;
+      margin:0;
+      padding:0;
+      display:grid;
+      grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+      align-items: center;
+      grid-auto-rows: 30px;
+      li{
+          font-size: 14px;
+          font-family: "Arial";
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+          line-height: 30px;
+        height: 30px;
+        border-right: 1px solid #272727;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+    }
+  }

@@ -1,0 +1,61 @@
+footer{
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px;
+  background-color: #1b2330;
+  min-height: 150px;
+  .footer-logo{
+    &:hover{
+      transform: rotate(360deg);
+      transition: 500ms;
+      cursor:pointer;
+    }
+    p{
+      font: 16px/1.5 'Myriad Pro', sans-serif;
+      color: #a0a2a6;
+      .ze{
+        font: 38px/1 'Myriad Pro', sans-serif;
+        color: #626262;
+
+      }
+      .bra{
+color:#06b5a9;
+        font: 38px/1 'Myriad Pro', sans-serif;
+
+      }
+    }
+  }
+  .footer-social{
+    min-width: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    .twitter{
+      background: url("../img/sprites/sprites.png");
+      background-position: -759px -209px ;
+      width: 44px;
+      height: 32px;
+      transition: 500ms;
+      &:hover{
+        cursor:pointer;
+        transform: scale(1.2, 1.2);
+        transition: 500ms;
+
+      }
+    }
+    .rss{
+      background: url("../img/sprites/sprites.png");
+      background-position: -828px -205px ;
+      width: 31px;
+      height: 32px;
+      transition: 500ms;
+      &:hover{
+        cursor:pointer;
+        transform: scale(1.2, 1.2);
+        transition: 500ms;
+      }
+    }
+  }
+}

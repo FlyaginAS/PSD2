@@ -1,0 +1,16 @@
+.banner-free{
+  background-color: #474747;
+  min-height: 460px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: space-evenly;
+  font: 25px 'Myriad Pro' ,sans-serif;
+  color:#f5c506;
+  text-transform: uppercase;
+  h2{
+    font-weight: lighter;
+
+  }
+
+}

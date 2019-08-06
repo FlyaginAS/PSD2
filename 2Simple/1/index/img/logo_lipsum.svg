@@ -1,0 +1,15 @@
+<svg id="logo_lipsum.svg" xmlns="http://www.w3.org/2000/svg" width="73" height="56" viewBox="0 0 73 56">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #f2ac04;
+      }
+
+      .cls-2 {
+        opacity: 0.54;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="45" cy="28" r="28"/>
+  <circle id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-2" cx="28" cy="28" r="28"/>
+</svg>

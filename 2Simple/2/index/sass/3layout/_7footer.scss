@@ -1,0 +1,25 @@
+footer{
+  p{
+    font-size: 15px;
+    font-family: "Segoe UI";
+    color: rgb(69, 66, 66);
+    line-height: 2.4;
+
+  }
+  &>div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    min-width:140px;
+    .tw{
+      background-position: -104px -205px ;
+      width: 30px;
+      height: 30px;
+    }
+    .fb{
+      background-position: -256px -207px ;
+      width: 30px;
+      height: 30px;
+    }
+  }
+}

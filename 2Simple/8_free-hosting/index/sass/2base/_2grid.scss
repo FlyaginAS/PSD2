@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+div{
+  border: 1px solid red;
+}
+
+body{
+  font-family: "Myriad Pro", sans-serif;
+}
+.wrapper-header{
+  min-height: 155px;
+}
+.wrapper-awesome{
+  min-height: 570px;
+  background-color:#222836;
+}
+.wrapper-domain{
+  min-height: 200px;
+  background-color:#e7f4f8;
+}
+.wrapper-benefits{
+  min-height: 545px;
+}
+.wrapper-hot{
+  min-height: 410px;
+  background-color:#fffbde;
+}
+.wrapper-hosting{
+  min-height: 770px;
+}
+.wrapper-newsletter{
+  min-height: 230px;
+  background-color:#e7f4f8;
+}
+.wrapper-footer{
+  min-height: 390px;
+  background-color:#4c515b;
+}
+.w1170{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+
+

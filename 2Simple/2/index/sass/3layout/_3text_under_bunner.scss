@@ -1,0 +1,17 @@
+.text_under_banner{
+  p{
+    max-width: 910px;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 23px;
+    font-family: "Segoe UI";
+    color: #494848;
+    font-style: italic;
+    line-height: 1.565;
+    text-align: center;
+    span{
+      color: #82699d;
+      font-weight: bold;
+    }
+  }
+}

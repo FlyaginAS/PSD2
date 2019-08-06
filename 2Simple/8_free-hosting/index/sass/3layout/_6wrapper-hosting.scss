@@ -1,0 +1,83 @@
+.wrapper-hosting .w1170{
+  position: relative;
+  display: grid;
+  grid-template-columns:repeat(auto-fill, minmax(265px, 1fr)) ;
+  grid-auto-rows: auto;
+  grid-gap: 10px 10px;
+
+  min-height: 765px;
+  justify-content: space-between;
+  align-content: center;
+}
+.wrapper-hosting__hosting{
+grid-column: 1/-1;
+  color: #859aa1;
+  font-size: 18px;
+  text-transform: uppercase;
+  span{
+    font-weight: bold;
+    font-size: 30px;
+  }
+}
+.wrapper-hosting__plan0{
+  border: 1px solid #e1eff4;
+  //margin: 10px;
+  display: grid;
+  justify-content: center;
+  align-content: space-evenly;
+  color:#556b72;
+  .price{
+    text-align: center;
+    font-size: 50px;
+    span{
+      font-weight: bold;
+    }
+  }
+  .month{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top:-10px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .plan{
+    text-decoration: none;
+    display: inline-block;
+    width:185px;
+    height: 40px;
+    background-color: #52cbf8;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+  }
+  ul{
+    list-style-type: none;
+
+    li{
+      text-align: center;
+      line-height: 40px;
+      border-bottom: 1px solid gray;
+      &:last-child{
+        border:none;
+      }
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+}
+.signup{
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin:20px auto;
+  width:115px;
+  height: 43px;
+  line-height: 43px;
+  text-transform: uppercase;
+  color: white;
+  background-color:#ff8261 ;
+}

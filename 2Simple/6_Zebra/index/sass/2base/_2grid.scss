@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+//div, header, footer{
+//  border: 1px solid red;
+//}
+
+body{
+    font-size: 10px;
+    font-family: 'Myriad Pro', "Arial", sans-serif;
+    color: #626262;
+}
+.main-wrapper{
+max-width: 1280px;
+  margin: 0 auto 0 auto;
+}
+.basket, .basket_white, .facebook_icon, .heans_big, .jeans_small, .levis_tarek_reda, .pit, .rss, .tie, .twitter, .s-301_large, .activitee_large, .bally_large{
+  background: url('../img/sprites/sprites.png') no-repeat;
+}
+
+
+
+

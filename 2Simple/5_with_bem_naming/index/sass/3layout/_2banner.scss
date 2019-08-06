@@ -1,0 +1,45 @@
+.banner{
+  background: url("../img/banner.png");
+  width: 100%;
+  min-height: 240px ;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.banner__slogan1{
+    font-size: 30px;
+    font-family: "Arial";
+    color: #a5adb8;
+    font-weight: bold;
+    line-height: 0.467;
+    text-align: left;
+&:first-letter{
+  color:#ae4b5d;
+}
+}
+.banner__slogan2{
+    font-size: 18px;
+    font-family: "Arial";
+    color: rgb(40, 45, 51);
+    font-weight: bold;
+    line-height: 0.778;
+    text-align: left;
+padding-top: 0.7rem;
+}
+.banner__slogan3{
+    font-size: 18px;
+    font-family: "Arial";
+    color: rgb(165, 173, 184);
+    font-weight: bold;
+    line-height: 0.778;
+    text-align: left;
+  padding-top:1.5rem;
+}
+.banner__slogan4{
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(217, 220, 223);
+    line-height: 1.286;
+    text-align: left;
+  max-width: 490px;
+  padding-top: 0.6rem;
+}

@@ -1,0 +1,98 @@
+.levis{
+   position: relative;
+   min-height: 820px;
+   .levis-logo{
+     background:url("../img/sprites/sprites.png");
+     background-position: 0 -500px ;
+     width: 350px;
+     height: 171px;
+     position: absolute;
+     top:-20px;
+     left:150px;
+   }
+   .wrap1{
+     display: flex;
+     flex-flow: row wrap;
+
+     .levis-description{
+       display: flex;
+       flex-flow: row wrap;
+       align-items: center;
+       max-width: 570px;
+       margin-left: 180px;
+       h2{
+         margin-top: 210px;
+         margin-bottom: 20px;
+         font: 50px/50px 'Myriad Pro', sans-serif;
+         color:#1d1d1d;
+       }
+       p{
+         font-size: 14px;
+         font-family: "Myriad Pro";
+         color: rgb(29, 29, 29);
+         line-height: 1.424;
+         text-align: left;
+       }
+       .rate{
+         font-size: 36px;
+         font-family: "Myriad Pro";
+         color: rgb(29, 29, 29);
+         line-height: 1;
+         text-align: left;
+         margin: 55px 110px 100px 0px;
+       }
+       .cart{
+         font-size: 28px;
+         font-family: "Myriad Pro";
+         color: rgb(255, 255, 255);
+         line-height: 1.5;
+         text-align: center;
+         width: 220px;
+         background-color: #d62132;
+         margin-bottom: 60px;
+         &:hover{
+           cursor: pointer;
+         }
+       }
+
+     }
+     .levis-img{
+       background: url("../img/sprites/sprites.png");
+       background-position: -152px 0;
+       width: 497px;
+       height: 477px;
+       margin-top: 30px;
+     }
+   }
+  .wrap2{
+max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    .jeans{
+      position: relative;
+      border: 1px solid #cacaca;
+        background: url("../img/sprites/sprites.png");
+        background-position: -826px 0;
+        width: 180px;
+        height: 172px;
+      transition:500ms;
+      &:hover{
+        transform: scale(1.1, 1.1);
+        transition:500ms;
+      }
+      &:after{
+        content: 'Levis Jeans-071';
+        position:absolute;
+        top:180px;
+        left: 40px;
+          font-size: 16px;
+          font-family: "Myriad Pro";
+          color: rgba(29, 29, 29, 0.878);
+          line-height: 1.229;
+
+      }
+    }
+  }
+ }

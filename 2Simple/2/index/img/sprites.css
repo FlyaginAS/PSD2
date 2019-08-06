@@ -1,0 +1,94 @@
+.about_logo, .business_logo, .but_left, .but_right, .contact, .fb, .home, .mashble_logo, .minto_logo, .new, .read_right, .services, .tech_logo, .tw, .about{
+	background: url(sprites.png) no-repeat;
+}
+
+.about_logo{
+	background-position: -402px -56px ;
+	width: 188px;
+	height: 30px;
+}
+
+.business_logo{
+	background-position: -406px 0;
+	width: 171px;
+	height: 41px;
+}
+
+.but_left{
+	background-position: -356px -169px ;
+	width: 34px;
+	height: 65px;
+}
+
+.but_right{
+	background-position: -4px -200px ;
+	width: 34px;
+	height: 65px;
+}
+
+.contact{
+	background-position: -311px -210px ;
+	width: 20px;
+	height: 14px;
+}
+
+.fb{
+	background-position: -256px -207px ;
+	width: 30px;
+	height: 30px;
+}
+
+.home{
+	background-position: -205px -206px ;
+	width: 21px;
+	height: 20px;
+}
+
+.mashble_logo{
+	background-position: -246px -4px ;
+	width: 150px;
+	height: 28px;
+}
+
+.minto_logo{
+	background-position: -149px -48px ;
+	width: 201px;
+	height: 70px;
+}
+
+.new{
+	background-position: -1px -48px ;
+	width: 134px;
+	height: 148px;
+}
+
+.read_right{
+	background-position: -415px -117px ;
+	width: 11px;
+	height: 7px;
+}
+
+.services{
+	background-position: -157px -210px ;
+	width: 20px;
+	height: 20px;
+}
+
+.tech_logo{
+	background-position: 0 0;
+	width: 222px;
+	height: 39px;
+}
+
+.tw{
+	background-position: -104px -205px ;
+	width: 30px;
+	height: 30px;
+}
+
+.about{
+	background-position: -55px -210px ;
+	width: 18px;
+	height: 19px;
+}
+

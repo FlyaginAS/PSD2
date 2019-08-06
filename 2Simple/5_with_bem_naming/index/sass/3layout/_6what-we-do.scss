@@ -1,0 +1,18 @@
+.what-we-do{
+margin-bottom: 10px;
+}
+.what-we-do__header{
+    font-size: 24px;
+    font-family: "Arial";
+    color: #a5adb8;
+    font-weight: bold;
+    line-height: 0.95;
+    text-align: left;
+  padding-bottom: 10px;
+&:first-letter{
+  color:#ae4b5d;
+}
+}
+.what-we-do__text{
+
+}

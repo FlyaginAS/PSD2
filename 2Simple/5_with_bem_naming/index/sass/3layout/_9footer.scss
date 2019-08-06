@@ -1,0 +1,49 @@
+.footer-content{
+  max-width: 980px;
+  min-height: 230px;
+  margin:0 auto 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+.hours, .local, .our{
+width: 270px;
+}
+.hours__h2, .local__h2, .our__h2{
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font: 100 18px/1.2  Arial, sans-serif;
+  color: #a5adb8;
+  border-bottom: 1px solid  black;
+  box-shadow: 0 1px  #40474f;
+    &:first-letter{
+      color:#ae4b5d;
+    }
+}
+.hours__p, .hours__ul, .local__ul, .our__ul{
+  color: #85898f;
+  font: 100 12px/1.2 Arial, sans-serif;
+}
+.hours__ul{
+  list-style-image: url("../img/hours.png");
+  list-style-position: inside;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+.local__ul{
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.local__li{
+  color:#85898f;
+  padding-bottom:10px;
+}
+.our__ul{
+  list-style-type: none;
+
+}
+.our__li{
+  padding-bottom:10px;
+}

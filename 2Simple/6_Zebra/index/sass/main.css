@@ -1,0 +1,423 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 10px;
+  font-family: 'Myriad Pro', "Arial", sans-serif;
+  color: #626262; }
+
+.main-wrapper {
+  max-width: 1280px;
+  margin: 0 auto 0 auto; }
+
+.basket, .basket_white, .facebook_icon, .heans_big, .jeans_small, .levis_tarek_reda, .pit, .rss, .tie, .twitter, .s-301_large, .activitee_large, .bally_large {
+  background: url("../img/sprites/sprites.png") no-repeat; }
+
+header {
+  min-height: 88px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around; }
+  header .logo {
+    transition: 500ms; }
+    header .logo:hover {
+      transform: scale(1.2, 1.2);
+      cursor: pointer;
+      transition: 500ms; }
+    header .logo span {
+      font-size: 38px;
+      line-height: 38px;
+      color: #626262; }
+    header .logo .zebra-color {
+      color: #06b5a9; }
+  header .header-navigation {
+    width: 33%; }
+    header .header-navigation ul {
+      list-style: none;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between; }
+      header .header-navigation ul li {
+        font-size: 18px;
+        line-height: 18px;
+        margin: 0 1%; }
+        header .header-navigation ul li a {
+          display: inline-block;
+          line-height: 85px;
+          min-height: 85px;
+          text-decoration: none;
+          color: #626262;
+          padding: 0 10px;
+          transition: 500ms; }
+          header .header-navigation ul li a:hover {
+            background-color: #cf1a2b;
+            color: white;
+            transition: 500ms; }
+      header .header-navigation ul li.pop-up:hover .wrap {
+        display: flex;
+        position: absolute;
+        background-color: #cf1a2b; }
+        header .header-navigation ul li.pop-up:hover .wrap .column1 .zebra {
+          height: 73px;
+          width: 220px;
+          font: 38px/1 'Myriad Pro', sans-serif;
+          padding: 23px 36px;
+          color: white;
+          border: 1px solid #fd94855; }
+          header .header-navigation ul li.pop-up:hover .wrap .column1 .zebra span {
+            color: #fec8cd; }
+          header .header-navigation ul li.pop-up:hover .wrap .column1 .zebra span:first-child {
+            color: white; }
+        header .header-navigation ul li.pop-up:hover .wrap .column1 .picture {
+          width: 220px;
+          height: 230px;
+          padding: 55px 70px; }
+          header .header-navigation ul li.pop-up:hover .wrap .column1 .picture:after {
+            content: '';
+            display: inline-block;
+            background: url("../img/sprites/sprites.png") no-repeat;
+            background-position: -671px -200px;
+            width: 81px;
+            height: 122px; }
+        header .header-navigation ul li.pop-up:hover .wrap .column2 {
+          height: 303px;
+          width: 190px; }
+          header .header-navigation ul li.pop-up:hover .wrap .column2 ul {
+            display: block;
+            padding: 5px 40px; }
+            header .header-navigation ul li.pop-up:hover .wrap .column2 ul li {
+              font: 16px/2 'Myriad Pro', sans-serif;
+              color: rgba(255, 255, 255, 0.722); }
+              header .header-navigation ul li.pop-up:hover .wrap .column2 ul li:hover {
+                cursor: pointer; }
+        header .header-navigation ul li.pop-up:hover .wrap .column3 {
+          height: 303px;
+          width: 190px; }
+          header .header-navigation ul li.pop-up:hover .wrap .column3 ul {
+            display: block;
+            padding: 5px 40px; }
+            header .header-navigation ul li.pop-up:hover .wrap .column3 ul li {
+              font: 16px/2 'Myriad Pro', sans-serif;
+              color: rgba(255, 255, 255, 0.722); }
+              header .header-navigation ul li.pop-up:hover .wrap .column3 ul li:hover {
+                cursor: pointer; }
+      header .header-navigation ul li.pop-up .wrap {
+        display: none; }
+  header .basket-price {
+    width: 150px;
+    height: 30px; }
+    header .basket-price span {
+      font-size: 24px;
+      color: #9d9d9d; }
+      header .basket-price span:before {
+        content: '';
+        display: inline-block;
+        background: url("../img/basket.png") no-repeat;
+        width: 29px;
+        height: 26px;
+        padding-right: 10px; }
+      header .basket-price span:after {
+        content: '';
+        display: inline-block;
+        background: url("../img/sprites/sprites.png") no-repeat;
+        background-position: -903px -220px;
+        width: 12px;
+        height: 11px;
+        position: relative;
+        left: 10px;
+        top: -5px; }
+
+.banner-eyes {
+  min-height: 570px;
+  background: url("../img/zebra.png"); }
+  .banner-eyes h2 {
+    text-transform: uppercase;
+    font: 116px/570px Impact, sans-serif;
+    font-weight: 800;
+    color: white;
+    text-align: center; }
+
+.prices {
+  min-height: 340px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center; }
+  .prices > div {
+    width: 245px;
+    height: 250px;
+    margin: 0 10px; }
+  .prices .price1 {
+    background-color: #58dbd3;
+    padding: 25px;
+    position: relative;
+    transition: 500ms; }
+    .prices .price1:hover {
+      transform: scale(1.1, 1.1);
+      transition: 500ms; }
+    .prices .price1 h3 {
+      color: white;
+      font: 30px/1 'Myriad Pro', sans-serif;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin-bottom: 10px; }
+    .prices .price1 .description {
+      color: white;
+      font: 20px/1 'Myriad Pro', sans-serif;
+      font-weight: 500;
+      text-transform: uppercase; }
+    .prices .price1 p:last-of-type {
+      color: #12867f;
+      font: 40px/1 'Myriad Pro', sans-serif;
+      font-weight: 800;
+      padding-top: 45px; }
+    .prices .price1 .shirt1 {
+      background: url("../img/sprites/sprites.png");
+      background-position: -866px -304px;
+      width: 132px;
+      height: 245px;
+      position: absolute;
+      top: 3px;
+      right: 0px; }
+  .prices .price2 {
+    background-color: #e4ce9a;
+    padding: 25px;
+    position: relative;
+    transition: 500ms; }
+    .prices .price2:hover {
+      transform: scale(1.1, 1.1);
+      transition: 500ms; }
+    .prices .price2 h3 {
+      color: white;
+      font: 30px/1 'Myriad Pro', sans-serif;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin-bottom: 10px; }
+    .prices .price2 p:last-of-type {
+      color: #5e4c38;
+      font: 40px/1 'Myriad Pro', sans-serif;
+      font-weight: 800;
+      padding-top: 65px; }
+    .prices .price2 .shirt2 {
+      background: url("../img/sprites/sprites.png");
+      background-position: -663px 0;
+      width: 143px;
+      height: 184px;
+      position: absolute;
+      bottom: 0;
+      right: 0; }
+  .prices .price3 {
+    background-color: #ffa7ce;
+    padding: 25px;
+    position: relative;
+    transition: 500ms; }
+    .prices .price3:hover {
+      transform: scale(1.1, 1.1);
+      transition: 500ms; }
+    .prices .price3 h3 {
+      color: white;
+      font: 30px/1 'Myriad Pro', sans-serif;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin-bottom: 10px; }
+    .prices .price3 .description {
+      color: white;
+      font: 20px/1 'Myriad Pro', sans-serif;
+      font-weight: 500;
+      text-transform: uppercase; }
+    .prices .price3 p:last-of-type {
+      color: #5e4c38;
+      font: 40px/1 'Myriad Pro', sans-serif;
+      font-weight: 800;
+      padding-top: 25px; }
+    .prices .price3 .shirt1 {
+      background: url("../img/sprites/sprites.png");
+      background-position: 0 0;
+      width: 135px;
+      height: 159px;
+      position: absolute;
+      bottom: 0;
+      right: 0px; }
+  .prices .price4 {
+    background-color: #f2ca66;
+    position: relative;
+    padding-left: 15px;
+    transition: 500ms; }
+    .prices .price4:hover {
+      transform: scale(1.1, 1.1);
+      transition: 500ms; }
+    .prices .price4 h3 {
+      color: white;
+      font: 105px/1 'Myriad Pro', sans-serif;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      margin-right: 25px;
+      transform: scale(-1, 1); }
+    .prices .price4 .description {
+      color: white;
+      font: 50px/1 'Myriad Pro', sans-serif;
+      font-weight: 800;
+      text-transform: uppercase;
+      text-align: center; }
+    .prices .price4 p:last-of-type {
+      color: #f2ca66;
+      background-color: white;
+      text-transform: uppercase;
+      font: 26px/36px 'Myriad Pro', sans-serif;
+      font-weight: 800;
+      margin-top: 30px;
+      width: 140px;
+      position: absolute;
+      bottom: 20px;
+      left: 0; }
+
+.banner-categories {
+  min-height: 560px;
+  background: url("../img/zebra2.png");
+  position: relative; }
+  .banner-categories h2 {
+    font: 116px/116px 'Myriad Pro', sans-serif;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 70px;
+    text-align: center; }
+  .banner-categories .rings {
+    background: url("../img/rings.png") no-repeat;
+    height: 300px;
+    margin-top: 30px; }
+
+.levis {
+  position: relative;
+  min-height: 820px; }
+  .levis .levis-logo {
+    background: url("../img/sprites/sprites.png");
+    background-position: 0 -500px;
+    width: 350px;
+    height: 171px;
+    position: absolute;
+    top: -20px;
+    left: 150px; }
+  .levis .wrap1 {
+    display: flex;
+    flex-flow: row wrap; }
+    .levis .wrap1 .levis-description {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      max-width: 570px;
+      margin-left: 180px; }
+      .levis .wrap1 .levis-description h2 {
+        margin-top: 210px;
+        margin-bottom: 20px;
+        font: 50px/50px 'Myriad Pro', sans-serif;
+        color: #1d1d1d; }
+      .levis .wrap1 .levis-description p {
+        font-size: 14px;
+        font-family: "Myriad Pro";
+        color: #1d1d1d;
+        line-height: 1.424;
+        text-align: left; }
+      .levis .wrap1 .levis-description .rate {
+        font-size: 36px;
+        font-family: "Myriad Pro";
+        color: #1d1d1d;
+        line-height: 1;
+        text-align: left;
+        margin: 55px 110px 100px 0px; }
+      .levis .wrap1 .levis-description .cart {
+        font-size: 28px;
+        font-family: "Myriad Pro";
+        color: white;
+        line-height: 1.5;
+        text-align: center;
+        width: 220px;
+        background-color: #d62132;
+        margin-bottom: 60px; }
+        .levis .wrap1 .levis-description .cart:hover {
+          cursor: pointer; }
+    .levis .wrap1 .levis-img {
+      background: url("../img/sprites/sprites.png");
+      background-position: -152px 0;
+      width: 497px;
+      height: 477px;
+      margin-top: 30px; }
+  .levis .wrap2 {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly; }
+    .levis .wrap2 .jeans {
+      position: relative;
+      border: 1px solid #cacaca;
+      background: url("../img/sprites/sprites.png");
+      background-position: -826px 0;
+      width: 180px;
+      height: 172px;
+      transition: 500ms; }
+      .levis .wrap2 .jeans:hover {
+        transform: scale(1.1, 1.1);
+        transition: 500ms; }
+      .levis .wrap2 .jeans:after {
+        content: 'Levis Jeans-071';
+        position: absolute;
+        top: 180px;
+        left: 40px;
+        font-size: 16px;
+        font-family: "Myriad Pro";
+        color: rgba(29, 29, 29, 0.878);
+        line-height: 1.229; }
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px;
+  background-color: #1b2330;
+  min-height: 150px; }
+  footer .footer-logo:hover {
+    transform: rotate(360deg);
+    transition: 500ms;
+    cursor: pointer; }
+  footer .footer-logo p {
+    font: 16px/1.5 'Myriad Pro', sans-serif;
+    color: #a0a2a6; }
+    footer .footer-logo p .ze {
+      font: 38px/1 'Myriad Pro', sans-serif;
+      color: #626262; }
+    footer .footer-logo p .bra {
+      color: #06b5a9;
+      font: 38px/1 'Myriad Pro', sans-serif; }
+  footer .footer-social {
+    min-width: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; }
+    footer .footer-social .twitter {
+      background: url("../img/sprites/sprites.png");
+      background-position: -759px -209px;
+      width: 44px;
+      height: 32px;
+      transition: 500ms; }
+      footer .footer-social .twitter:hover {
+        cursor: pointer;
+        transform: scale(1.2, 1.2);
+        transition: 500ms; }
+    footer .footer-social .rss {
+      background: url("../img/sprites/sprites.png");
+      background-position: -828px -205px;
+      width: 31px;
+      height: 32px;
+      transition: 500ms; }
+      footer .footer-social .rss:hover {
+        cursor: pointer;
+        transform: scale(1.2, 1.2);
+        transition: 500ms; }
+
+/*# sourceMappingURL=main.css.map */

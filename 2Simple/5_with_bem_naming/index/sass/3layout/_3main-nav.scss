@@ -1,0 +1,29 @@
+.main-nav{
+  min-height: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  justify-content: end;
+  background-color:#95161f;
+  list-style-type: none;
+  margin-right: auto;
+}
+.main-nav__item{
+display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.main-nav__item-ref{
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.875;
+  text-decoration: none;
+  min-height: 40px;
+  padding-top: 0.8rem;
+  transition-duration: 500ms;
+  &:hover{
+    transform: scale(1.2);
+    transition-duration: 500ms;
+  }
+}

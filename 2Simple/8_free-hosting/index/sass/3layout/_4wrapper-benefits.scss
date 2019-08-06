@@ -1,0 +1,93 @@
+.wrapper-benefits .w1170{
+  min-height: 540px;
+  padding-bottom:100px;
+  color:#556b72;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-auto-rows: 100px;
+  align-content: space-evenly;
+div{
+  padding-left: 100px;
+  h2{
+      font-size: 16px;
+      color: rgb(85, 107, 114);
+      text-transform: uppercase;
+      line-height: 1.938;
+
+  }
+  p{
+    position: relative;
+      font-size: 13.5px;
+      color: rgb(160, 169, 182);
+      line-height: 1.778;
+      text-align: left;
+      width: 236px;
+      //&::before{
+      //  content:url("../img/uptime.png");
+      //  position: absolute;
+      //  top: -25px;
+      //  left: -90px;
+      //}
+
+  }
+}
+}
+.wrapper-benefits__p{
+  //padding-top: 20px;
+  grid-area:1/1/1/-1;
+  font-size: 18px;
+  text-transform: uppercase;
+  span{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+  }
+}
+.wrapper-benefits__uptime p{
+  &::before{
+    content:url("../img/uptime.png");
+    position: absolute;
+    top: -25px;
+    left: -90px;
+  }
+}
+.wrapper-benefits__support p{
+  &::before{
+    content:url("../img/support.png");
+    position: absolute;
+    top: -25px;
+    left: -90px;
+  }
+}
+.wrapper-benefits__pc p{
+  &::before{
+    content:url("../img/pc.png");
+    position: absolute;
+    top: -25px;
+    left: -90px;
+  }
+}
+.wrapper-benefits__control p{
+  &::before{
+    content:url("../img/control.png");
+    position: absolute;
+    top: -25px;
+    left: -90px;
+  }
+}
+.wrapper-benefits__transfer p{
+  &::before{
+    content:url("../img/domain.png");
+    position: absolute;
+    top: -25px;
+    left: -90px;
+  }
+}
+.wrapper-benefits__security p{
+  &::before{
+    content:url("../img/security.png");
+    position: absolute;
+    top: -25px;
+    left: -90px;
+  }
+}

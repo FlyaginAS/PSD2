@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+div{
+  border: 1px solid red;
+}
+
+body{
+  background-color:#e5e6e6;
+    font-size: 14px;
+    font-family: "Arial", sans-serif;
+    color: rgb(107, 111, 116);
+    line-height: 1.714;
+}
+.search-form1{
+  background: linear-gradient(#353c46, #2a3134);
+  width: 100%;
+  min-height: 75px;
+}
+.wrapper-body{
+    background-color: rgb(255, 255, 255);
+    max-width: 980px;
+  margin:0 auto;
+}
+.wrapper-content{
+  padding:23px 23px  50px 23px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.content{
+margin-left: 20px;
+
+}
+.footer-main{
+    width: 100%;
+    min-height: 291px;
+border-top: 8px solid #ae4b5d;
+  background-color: #263131;
+}
+
+
+

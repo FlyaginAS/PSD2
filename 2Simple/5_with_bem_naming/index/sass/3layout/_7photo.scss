@@ -1,0 +1,18 @@
+.photo-wrap{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 220px);
+  margin-bottom: 10px;
+}
+.photo{
+margin-right: 15px;
+}
+.photo__header{
+    font-size: 18px;
+    font-family: "Arial";
+    color: rgb(40, 45, 51);
+    font-weight: bold;
+    line-height: 0.778;
+    text-align: left;
+  margin-bottom: 15px;
+  padding-left: 5px;
+}

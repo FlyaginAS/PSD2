@@ -1,0 +1,80 @@
+.wrapper-header .w1170{
+display: grid;
+  //grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto;
+  align-content: center;
+  padding-top: 27px;
+}
+.wrapper-header__logo{
+  grid-column: 1/2;
+  grid-row: 1;
+  justify-self: start;
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 27px;
+}
+.wrapper-header__span{
+  padding-left: 10px;
+  padding-top: 5px;
+    font-size: 20px;
+    color: rgb(22, 25, 32);
+    text-transform: uppercase;
+    line-height: 20px;
+}
+.wrapper-header__input{
+  grid-column: 2/3;
+  grid-row: 1;
+  justify-self: end;
+border: 1px solid #e1e9f2;
+  border-right: none;
+  border-left: none;
+margin-bottom: 27px;
+}
+.wrapper-header__support{
+  padding-left: 70px;
+  display: inline-block;
+  font: 14px/46px 'Myriad Pro',sans-serif;
+  color:black;
+  span{
+    font-weight: bold;
+  }
+}
+.wrapper-header__register{
+  padding: 0 30px;
+  font: 14px/46px 'Myriad Pro',sans-serif;
+  color:#9ba4b0;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.wrapper-header__login{
+  font: 14px/46px 'Myriad Pro',sans-serif;
+  color:#9ba4b0;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.wrapper-header__menu{
+  //width: 100%;
+  grid-column: 1/13;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 90px);
+  justify-content: start;
+background-color: #ff8261;
+  a{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    line-height: 55px;
+    //margin: 0 auto;
+    &:hover{
+      background-color: #52cbf8;
+    }
+  }
+}
+
+

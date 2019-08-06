@@ -1,0 +1,45 @@
+.lists{
+    font-size: 24px;
+    font-family: "Arial";
+    color: #a5adb8;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+&:first-letter{
+color:#ae4b5d;
+}
+}
+.lists-wrap{
+display: grid;
+  grid-template-columns: repeat(auto-fill, 220px);
+  grid-gap: 15px;
+  code{
+      font-size: 12px;
+      font-family: "Arial";
+      color: rgb(92, 100, 110);
+      line-height: 2;
+      border-radius: 3px;
+      background-color: rgb(222, 222, 222);
+
+  }
+  ul{
+    list-style: inside;
+    list-style-type: disc;
+    ul{
+      padding-left: 20px;
+    }
+  }
+  ol{
+    list-style: inside;
+    list-style-type: decimal;
+  }
+
+}
+.list-ul__h3{
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(92, 100, 110);
+    line-height: 1.714;
+    text-align: left;
+
+}

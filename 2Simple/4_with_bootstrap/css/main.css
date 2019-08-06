@@ -1,0 +1,7 @@
+div[class^='col']{
+    background-color: #77c344;
+}
+.row{
+    background-color: yellow;
+    min-height: 100px;
+}

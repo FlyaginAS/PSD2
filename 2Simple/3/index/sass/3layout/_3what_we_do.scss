@@ -1,0 +1,36 @@
+.what_we_do{
+  h2{
+      font-size: 30px;
+      font-family: "Arial";
+      color: #838383;
+      font-weight: bold;
+      line-height: 0.667;
+    padding-left: 15px;
+      &:first-letter{
+        color: black;
+      }
+  }
+p{
+    padding-left: 15px;
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgb(0, 0, 0);
+    line-height: 1.538;
+    text-align: left;
+
+
+
+  a{
+
+  }
+}
+  .ps{
+      font-size: 13px;
+      font-family: "Arial";
+      color: rgb(139, 139, 139);
+      font-style: italic;
+      line-height: 1.538;
+      text-align: left;
+    padding-left: 25px;
+  }
+}

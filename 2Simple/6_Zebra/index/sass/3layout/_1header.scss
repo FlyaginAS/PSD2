@@ -1,0 +1,156 @@
+header{
+   min-height: 88px;
+   //padding-left:144px;
+   //padding-right: 144px;
+   display:flex;
+   flex-flow: row wrap;
+   align-items: center;
+   justify-content: space-around;
+   .logo{
+     &:hover{
+       transform: scale(1.2, 1.2);
+       cursor: pointer;
+       transition: 500ms;
+     }
+     transition: 500ms;
+     span{
+       font-size: 38px;
+       line-height: 38px;
+       color: #626262;
+
+     }
+     .zebra-color{
+       color: #06b5a9;
+     }
+   }
+   .header-navigation{
+     width: 33%;
+     ul{
+       list-style: none;
+       display: flex;
+       flex-flow: row wrap;
+       justify-content: space-between;
+       li{
+         font-size: 18px;
+         line-height: 18px;
+         margin: 0 1%;
+         a{
+           display:inline-block;
+           line-height: 85px;
+           min-height: 85px;
+           text-decoration: none;
+           color: #626262;
+           padding: 0 10px;
+           transition: 500ms;
+           &:hover{
+             background-color: #cf1a2b;
+             color: white;
+             transition: 500ms;
+           }
+         }
+         }
+        li.pop-up:hover{
+          .wrap{
+            display:flex;
+            position: absolute;
+            background-color: #cf1a2b;
+            .column1{
+              .zebra{
+                height: 73px;
+                width:220px;
+                font: 38px/1 'Myriad Pro', sans-serif;
+                padding: 23px 36px;
+                color: white;
+                border: 1px solid #fd94855;
+                span {
+                  color: #fec8cd;
+                }
+                span:first-child{
+                  color: white;
+                }
+              }
+              .picture{
+                width: 220px;
+                height: 230px;
+                padding: 55px 70px;
+                &:after{
+                  content:'';
+                  display: inline-block;
+                  background: url('../img/sprites/sprites.png') no-repeat;
+                  background-position: -671px -200px ;
+                  width: 81px;
+                  height: 122px;
+                }
+
+              }
+            }
+            .column2{
+              height: 303px;
+              width: 190px;
+              ul{
+                display: block;
+                padding: 5px 40px;
+                li {
+                  font: 16px/2 'Myriad Pro', sans-serif;
+                    color: rgba(255, 255, 255, 0.722);
+                  &:hover{
+                    cursor: pointer;
+                  }
+                }
+              }
+            }
+            .column3{
+              height: 303px;
+              width: 190px;
+              ul{
+                display: block;
+                padding: 5px 40px;
+                li {
+                  font: 16px/2 'Myriad Pro', sans-serif;
+                  color: rgba(255, 255, 255, 0.722);
+                  &:hover{
+                    cursor: pointer;
+                  }
+                }
+              }
+            }
+          }
+           }
+       li.pop-up{
+          .wrap{
+            display: none;
+          }
+       }
+
+     }
+
+   }
+   .basket-price{
+     width: 150px;
+     height: 30px;
+     //padding:0 35px;
+     span{
+       font-size: 24px;
+       color: #9d9d9d;
+      &:before{
+        content: '';
+        display: inline-block;
+        background: url('../img/basket.png') no-repeat;
+        width: 29px;
+        height: 26px;
+        padding-right:10px;
+      }
+       &:after{
+         content: '';
+         display: inline-block;
+         background: url('../img/sprites/sprites.png') no-repeat;
+         background-position: -903px -220px ;
+         width: 12px;
+         height: 11px;
+         position:relative;
+         left: 10px;
+         top: -5px;
+       }
+     }
+   }
+ }

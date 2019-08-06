@@ -1,0 +1,19 @@
+.banner-categories{
+  min-height:560px;
+  background:url("../img/zebra2.png");
+  position: relative;
+  h2{
+    font: 116px/116px 'Myriad Pro', sans-serif;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 70px;
+    text-align: center;
+  }
+  .rings{
+background: url("../img/rings.png") no-repeat;
+    height:300px;
+    margin-top: 30px;
+  }
+
+}

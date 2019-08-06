@@ -1,0 +1,21 @@
+.bread-crumbs{
+  min-height: 30px;
+  padding-left: 20px;
+  background-color:#f3f3f3;
+  list-style:none;
+}
+.bread-crumbs__item{
+  display: inline;
+}
+.bread-crumbs__item-ref{
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb(149, 22, 31);
+  text-decoration: underline;
+  line-height: 30px;
+  text-align: left;
+}
+.bread-crumbs__item-ref_disabled{
+text-decoration: none;
+  color:#6b6f74;
+}

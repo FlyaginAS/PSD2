@@ -1,0 +1,40 @@
+.img1, .img2, .img3, .img4, .logo-and slogan, .slider_img{
+	background: url(sprites.png) no-repeat;
+}
+
+.img1{
+	background-position: 0 0;
+	width: 224px;
+	height: 166px;
+}
+
+.img2{
+	background-position: -229px 0;
+	width: 224px;
+	height: 166px;
+}
+
+.img3{
+	background-position: -462px 0;
+	width: 224px;
+	height: 166px;
+}
+
+.img4{
+	background-position: -694px 0;
+	width: 224px;
+	height: 166px;
+}
+
+.logo-and slogan{
+	background-position: -925px 0;
+	width: 152px;
+	height: 41px;
+}
+
+.slider_img{
+	background-position: 0 -175px ;
+	width: 1000px;
+	height: 329px;
+}
+

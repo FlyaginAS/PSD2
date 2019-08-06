@@ -1,0 +1,60 @@
+.wrapper-domain{
+}
+.wrapper-domain .w1170{
+  min-height: 200px;
+display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  justify-content: space-between;
+  align-items: center;
+  input{
+    margin-right: 10px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgb(223, 238, 243);
+      height: 59px;
+    padding-left: 20px;
+      &::placeholder{
+        color: #a0a9b6;
+        font: 14px/59px 'Myriad Pro',sans-serif;
+        //padding-left: 20px;
+      }
+
+  }
+}
+.wrapper-domain__search-p{
+  position: relative;
+  color:#859aa1;
+  font: 18px/1.1 'Myriad Pro', sans-serif;
+  text-transform: uppercase;
+  &::before{
+    content: url("../img/zoom.png");
+    display: inline-block;
+    position: absolute;
+    top:-30px;
+  }
+}
+.wrapper-domain__search-span{
+color: #556b72;
+  font-size: 30px;
+  letter-spacing: -1px;
+}
+.wrapper-domain__name{
+  grid-column: span 2;
+}
+.wrapper-domain__year{
+
+}
+.wrapper-domain__com{
+
+}
+.wrapper-domain__button{
+  background-color: #ff8261;
+  color: white;
+  font: 14px/59px 'Myriad Pro', sans-serif;
+  text-transform: uppercase;
+  padding:0;
+  text-align: center;
+  &:hover{
+    cursor: pointer;
+  }
+}

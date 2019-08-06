@@ -1,0 +1,28 @@
+.article{
+  .circle{
+    width: 315px;
+    height: 310px;
+    background: url("../img/circle.png") no-repeat;
+  }
+  .text{
+    h2{
+      font-size: 31px;
+      font-family: "Segoe UI";
+      color: rgb(80, 80, 81);
+      font-weight: bold;
+      line-height: 1.161;
+      text-align: left;
+
+    }
+    p{
+      max-width: 620px;
+      font-size: 15px;
+      font-family: "Segoe UI";
+      color: rgb(131, 131, 131);
+      line-height: 1.867;
+      text-align: left;
+
+    }
+  }
+
+}

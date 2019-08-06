@@ -1,0 +1,10 @@
+.banner-video{
+  display: flex;
+  flex-flow: row wrap;
+
+box-shadow: 0 3px 3px gray;
+  iframe{
+    width: 100%;
+    flex: 1 1 auto;
+  }
+}

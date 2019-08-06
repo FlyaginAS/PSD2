@@ -1,0 +1,54 @@
+header {
+  .minto_logo {
+    background-position: -149px -48px;
+    width: 201px;
+    height: 70px;
+  }
+  nav {
+    width: 60%;
+    ul {
+      display: flex;
+      flex-flow: row wrap;
+      max-width: 600px;
+      justify-content: space-between;
+      list-style-type: none;
+      li {
+        span{
+          display:inline-block;
+          padding-right: 10px;
+        }
+        .home{
+          background-position: -205px -206px ;
+          width: 21px;
+          height: 20px;
+        }
+        .about{
+          background-position: -55px -210px ;
+          width: 18px;
+          height: 19px;
+        }
+        .services{
+          background-position: -157px -210px ;
+          width: 20px;
+          height: 20px;
+        }
+        .contact{
+          background-position: -311px -210px ;
+          width: 20px;
+          height: 14px;
+        }
+        a {
+          text-decoration: none;
+          text-transform: capitalize;
+          font: $header-font;
+          color: $header-font-color;
+          cursor: pointer;
+          &:hover{
+            color: orangered;
+          }
+        }
+      }
+    }
+  }
+}
+

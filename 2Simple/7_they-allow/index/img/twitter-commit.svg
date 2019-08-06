@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="284.062" height="42" viewBox="0 0 284.062 42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="twitter-commit.svg" class="cls-1" d="M343,835H598a10,10,0,0,1,10,10v22a10,10,0,0,1-10,10H343a10,10,0,0,1-10-10V845A10,10,0,0,1,343,835Zm-10,20s-2.5,7.5-8,8,12,7,12,7V856" transform="translate(-323.938 -835)"/>
+</svg>

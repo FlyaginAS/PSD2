@@ -1,0 +1,126 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-301_large {
+  background-image: url(sprite.png);
+  background-position: -3130px -1280px;
+  width: 143px;
+  height: 184px;
+}
+.icon-bally_large {
+  background-image: url(sprite.png);
+  background-position: -2560px -1576px;
+  width: 135px;
+  height: 159px;
+}
+.icon-cactus {
+  background-image: url(sprite.png);
+  background-position: -1941px -973px;
+  width: 446px;
+  height: 297px;
+}
+.icon-evernote {
+  background-image: url(sprite.png);
+  background-position: -2695px -1576px;
+  width: 169px;
+  height: 43px;
+}
+.icon-fb {
+  background-image: url(sprite.png);
+  background-position: -3261px -1464px;
+  width: 12px;
+  height: 22px;
+}
+.icon-firefox {
+  background-image: url(sprite.png);
+  background-position: -3130px -1541px;
+  width: 112px;
+  height: 33px;
+}
+.icon-gg {
+  background-image: url(sprite.png);
+  background-position: -3242px -1541px;
+  width: 20px;
+  height: 22px;
+}
+.icon-google {
+  background-image: url(sprite.png);
+  background-position: -3130px -1464px;
+  width: 131px;
+  height: 46px;
+}
+.icon-heans_big {
+  background-image: url(sprite.png);
+  background-position: -1444px -973px;
+  width: 497px;
+  height: 477px;
+}
+.icon-its-free {
+  background-image: url(sprite.png);
+  background-position: -2560px -1280px;
+  width: 570px;
+  height: 296px;
+}
+.icon-logofooter {
+  background-image: url(sprite.png);
+  background-position: -2864px -1576px;
+  width: 179px;
+  height: 27px;
+}
+.icon-microsoft {
+  background-image: url(sprite.png);
+  background-position: -3130px -1510px;
+  width: 142px;
+  height: 31px;
+}
+.icon-sony {
+  background-image: url(sprite.png);
+  background-position: -3043px -1576px;
+  width: 132px;
+  height: 23px;
+}
+.icon-twitter {
+  background-image: url(sprite.png);
+  background-position: -3175px -1576px;
+  width: 20px;
+  height: 18px;
+}
+.icon-yтане {
+  background-image: url(sprite.png);
+  background-position: -2560px 0px;
+  width: 720px;
+  height: 1280px;
+}
+.icon-zebra {
+  background-image: url(sprite.png);
+  background-position: -1280px 0px;
+  width: 1280px;
+  height: 926px;
+}
+.icon-zebra2 {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 1280px;
+  height: 973px;
+}
+.icon-погода {
+  background-image: url(sprite.png);
+  background-position: 0px -973px;
+  width: 1444px;
+  height: 770px;
+}

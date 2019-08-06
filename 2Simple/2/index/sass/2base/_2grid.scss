@@ -1,0 +1,69 @@
+//div, header, footer{
+//  border: 1px solid red;
+//}
+.content{
+  max-width: 1300px;
+  border-top: 8px solid $wrap-border;
+  border-bottom: 8px solid $wrap-border;
+  margin: 0 auto;
+}
+.wrapper{
+  max-width: 1020px;
+  margin:  0 auto;
+}
+.about_logo, .business_logo, .but_left, .but_right, .contact, .fb, .home, .mashble_logo, .minto_logo, .new, .read_right, .services, .tech_logo, .tw, .about{
+  background: url(../img/sprites.png) no-repeat;
+}
+header {
+  min-height: 130px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner{
+  min-height: 485px;
+  width:100%;
+  position: relative;
+  background: url("../img/minto_img.jpg") no-repeat;
+  margin-bottom: 40px;
+}
+.text_under_banner{
+  border-top:1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+  margin: 0 10px 30px 10px;
+}
+.article{
+  min-height: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.featured{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: stretch;
+  align-items: center;
+}
+.clients{
+  margin-bottom: 60px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 75px;
+  border: 1px solid #e4e4e4;
+}
+footer{
+  background-color:#f5f5f5;
+  min-height: 70px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+

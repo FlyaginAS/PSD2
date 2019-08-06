@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+//div, header, footer{
+//  border: 1px solid red;
+//}
+body{
+  background: repeat-x black 0 390px  url("../img/background.png") ;
+}
+.wrapper{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+  max-width: 1000px;
+  min-height: 1197px;
+  margin: 0 auto;
+}
+.img1, .img2, .img3, .img4, .logo, .slider_img{
+  background: url(../img/sprites.png) no-repeat;
+}
+
+

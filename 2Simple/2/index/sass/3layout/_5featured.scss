@@ -1,0 +1,18 @@
+.featured{
+  p{
+    flex: 0 0 auto;
+    font-size: 23px;
+    font-family: "Segoe UI";
+    line-height: 1.565;
+    text-align: left;
+    text-transform: capitalize;
+    span{
+      font-weight: bold;
+    }
+  }
+  div{
+    background: url("../img/dotted.png");
+    height: 7px;
+    flex: 3 1 auto;
+  }
+}

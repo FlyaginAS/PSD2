@@ -1,0 +1,16 @@
+<svg id="video-play-small.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="27" viewBox="0 0 27 27">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        opacity: 0.37;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <image class="cls-1" width="27" height="27" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbBAMAAAB/+ulmAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAD1BMVEX1xQb1xQb1xQb1xQYAAAAfJvmiAAAABHRSTlNaXVteptvM0wAAAAFiS0dEBI9o2VEAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBwwMNCgjdwJNAAAAGklEQVQY02NgFEQCDAzKxkhAYZRLJy5qLAAAvnND6o2i8wkAAAAASUVORK5CYII="/>
+  <path class="cls-2" d="M93.006,346.058a0.973,0.973,0,0,1,.678-0.954,1.066,1.066,0,0,1,1.214.222l7.785,7.411a0.953,0.953,0,0,1,.318.76,0.976,0.976,0,0,1-.318.732L94.9,361.668a1.04,1.04,0,0,1-1.214.223,0.991,0.991,0,0,1-.678-0.98V346.058h0Z" transform="translate(-83 -340)"/>
+</svg>

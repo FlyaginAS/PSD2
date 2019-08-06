@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9.625" height="9.656" viewBox="0 0 9.625 9.656">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        opacity: 0.7;
+      }
+    </style>
+  </defs>
+  <path id="plus-icon.svg" class="cls-1" d="M295.724,780.325h-3.507v3.506h-2.631v-3.506h-3.507V777.7h3.507V774.19h2.631V777.7h3.507v2.629Z" transform="translate(-286.094 -774.188)"/>
+</svg>

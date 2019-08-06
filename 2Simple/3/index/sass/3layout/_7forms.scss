@@ -1,0 +1,92 @@
+.forms{
+  font-family: "Arial";
+
+  h3{
+    padding-left: 15px;
+    font-size: 20px;
+    color: #838383;
+    font-weight: bold;
+    line-height: 0.5;
+    &:first-letter{
+      color: black;
+    }
+  }
+  form{
+    padding-left: 15px;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    line-height: 1;
+    p{
+    }
+    label[for='0']{
+
+    }
+    input[id='0']{
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgb(183, 183, 183);
+      background-color: rgb(255, 255, 255);
+      box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
+      width: 222px;
+      height: 28px;
+      &::placeholder{
+        font-size: 12px;
+        color: rgb(192, 192, 192);
+        line-height: 1.667;
+        padding-left: 10px;
+      }
+    }
+    label[for='1']{
+
+    }
+    select[id='1']{
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(183, 183, 183);
+        background-color: rgb(255, 255, 255);
+        width: 228px;
+        height: 28px;
+      padding-left: 5px;
+    }
+    label[for='2']{
+
+    }
+    input[id='2']{
+
+    }
+    label[for='3']{
+
+    }
+    input[id='3']{
+
+    }
+    label[for='4']{
+
+    }
+    textarea[id='4']{
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(183, 183, 183);
+        background-color: rgb(255, 255, 255);
+        box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
+        width: 302px;
+        height: 122px;
+
+    }
+    #confirm{
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(0, 0, 0);
+        background-color: rgb(32, 32, 32);
+        width: 95px;
+        height: 39px;
+      color: white;
+        font-size: 14px;
+        font-family: "Arial";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.429;
+margin-bottom: 25px;
+    }
+  }
+}
