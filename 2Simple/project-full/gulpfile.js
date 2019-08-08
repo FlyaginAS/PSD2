@@ -52,7 +52,7 @@ gulp.task('css-min', function () {
     return gulp.src('dev/sass/main.css')
         .pipe(prefixer())
         .pipe(minimize())
-        .pipe(rename('main-min.css'))
+        .pipe(rename('min.css'))
         .pipe(gulp.dest('dev'));
 });
 //JS
