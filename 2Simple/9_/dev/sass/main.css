@@ -200,21 +200,23 @@ body {
   padding-top: 40px; }
 
 .news__list {
-  width: 280px;
-  height: 120px;
-  border-bottom: 1px solid  #e5ddd5;
   list-style: none;
   padding: 0; }
-  .news__list:last-child {
-    border-bottom: none; }
 
-.news__list li:not(:first-child) {
+.news__list li:not(:first-child):not(:nth-child(2)) {
   display: none; }
+
+.news__item {
+  padding: 10px 0;
+  display: flex;
+  border-bottom: 1px solid  #e5ddd5; }
+  .news__item:last-child {
+    border-bottom: none; }
 
 .news__date {
   width: 50px;
   height: 60px;
-  display: inline-block;
+  display: block;
   background: border-box no-repeat url("../resources/img/img-opt/date-back2.png");
   padding-left: 8px;
   padding-top: 5px; }
@@ -228,6 +230,8 @@ body {
     line-height: 1; }
 
 .news__text {
-  font: 18px/27px 'Myriad Pro', sans-serif; }
+  font: 18px/27px 'Myriad Pro', sans-serif;
+  margin: 0;
+  width: 80%; }
 
 /*# sourceMappingURL=main.css.map */

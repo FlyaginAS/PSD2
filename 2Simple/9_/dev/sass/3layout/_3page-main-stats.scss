@@ -1,0 +1,58 @@
+/*stats header*/
+.stats{
+}
+.stats__header{
+  height: 185px;
+  display: grid;
+}
+.stats__legend {
+  display: none;
+}
+.stats__slogan{
+  text-transform: uppercase;
+  font-size:30px;
+    line-height: 1;
+    text-align: center;
+  display: block;
+  margin-top:30px;
+}
+.stats__intro{
+    font-size: 20px;
+    line-height: 1.35;
+    text-align: center;
+}
+
+/*Stats list*/
+.stats__list{
+  color: white;
+  border-collapse: collapse;
+  width:100%;
+  tr:nth-child(2n){
+    background-color:#4e4e4e;
+  }
+  tr:nth-child(2n +1){
+    background-color:#353535;
+  }
+}
+.stats__value{
+font-size:40px;
+  line-height:80px;
+  padding-left: 15px;
+}
+.stats__field{
+    font-size: 18px;
+    line-height: 1;
+    text-align: right;
+  padding-right: 15px;
+}
+.stats__legend_bottom{
+  display:inline-block;
+   font-size: 20px;
+  text-align: center;
+  width:100%;
+    color: #777777;
+    line-height: 1.35;
+    text-align: center;
+    background-color: #242424;
+  padding-top: 20px;
+}
