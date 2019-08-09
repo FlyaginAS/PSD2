@@ -1,3 +1,6 @@
+body {
+  font: 1em 'Myriad Pro', sans-serif; }
+
 .page-header {
   min-width: 320px;
   min-height: 135px;
@@ -59,5 +62,172 @@
 
 .user-list {
   display: none; }
+
+.page-main {
+  min-width: 320px; }
+
+.visually-hidden {
+  display: none; }
+
+/*stats header*/
+.stats__header {
+  height: 185px;
+  display: grid; }
+
+.stats__legend {
+  display: none; }
+
+.stats__slogan {
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 1;
+  text-align: center;
+  display: block;
+  margin-top: 30px; }
+
+.stats__intro {
+  font-size: 20px;
+  line-height: 1.35;
+  text-align: center; }
+
+/*Stats list*/
+.stats__list {
+  color: white;
+  border-collapse: collapse;
+  width: 100%; }
+  .stats__list tr:nth-child(2n) {
+    background-color: #4e4e4e; }
+  .stats__list tr:nth-child(2n +1) {
+    background-color: #353535; }
+
+.stats__value {
+  font-size: 40px;
+  line-height: 80px;
+  padding-left: 15px; }
+
+.stats__field {
+  font-size: 18px;
+  line-height: 1;
+  text-align: right;
+  padding-right: 15px; }
+
+.stats__legend_bottom {
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  color: #777777;
+  line-height: 1.35;
+  text-align: center;
+  background-color: #242424;
+  padding-top: 20px; }
+
+.advantages {
+  margin-top: -31px;
+  height: 400px;
+  background: #242424 bottom/100% no-repeat url("../resources/img/img-opt/banner_02.png"); }
+
+.advantages__wrapper {
+  display: grid;
+  justify-content: center;
+  justify-items: center; }
+
+.advantages__list {
+  list-style: none;
+  color: #f7f4f1;
+  margin: 0;
+  padding: 0; }
+
+.advantages__item {
+  height: 320px;
+  display: grid;
+  justify-items: center; }
+
+.advantages__item_cool, .advantages__item_price {
+  display: none; }
+
+.advantages__title {
+  padding-top: 150px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  display: inline-block;
+  justify-self: center; }
+
+.advantages__description {
+  margin-top: -15px;
+  font-size: 20px;
+  text-align: center; }
+
+.advantages__item_fast .advantages__title {
+  position: relative;
+  margin: 0 auto; }
+  .advantages__item_fast .advantages__title:before {
+    content: url("../resources/img/img-opt/advantage-1-illustration.svg");
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 15%; }
+
+.advantages__toggles {
+  margin: 0; }
+
+.slider__toggle {
+  visibility: hidden;
+  position: relative; }
+  .slider__toggle:before {
+    visibility: visible;
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    top: 2px;
+    left: 5px;
+    transform: rotate(45deg);
+    border: 2px solid #f7f4f1; }
+
+.news {
+  height: 470px;
+  background-color: #f8f5f2;
+  margin-top: -25px; }
+
+.news__title {
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-top: 40px; }
+
+.news__list {
+  width: 280px;
+  height: 120px;
+  border-bottom: 1px solid  #e5ddd5;
+  list-style: none;
+  padding: 0; }
+  .news__list:last-child {
+    border-bottom: none; }
+
+.news__list li:not(:first-child) {
+  display: none; }
+
+.news__date {
+  width: 50px;
+  height: 60px;
+  display: inline-block;
+  background: border-box no-repeat url("../resources/img/img-opt/date-back2.png");
+  padding-left: 8px;
+  padding-top: 5px; }
+
+.news__day {
+  color: white;
+  font-size: 16px;
+  line-height: 1; }
+  .news__day span {
+    font-size: 30px;
+    line-height: 1; }
+
+.news__text {
+  font: 18px/27px 'Myriad Pro', sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
