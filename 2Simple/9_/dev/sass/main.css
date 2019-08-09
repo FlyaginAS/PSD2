@@ -1,3 +1,15 @@
+.page-header {
+  min-width: 320px;
+  min-height: 135px;
+  background-color: #242424; }
 
+.page-header__logo {
+  display: flex;
+  height: 85px;
+  align-items: center;
+  justify-content: center; }
+
+.main-nav {
+  background-color: #826550; }
 
 /*# sourceMappingURL=main.css.map */
