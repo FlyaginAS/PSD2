@@ -190,9 +190,12 @@ body {
     border: 2px solid #f7f4f1; }
 
 .news {
-  height: 470px;
-  background-color: #f8f5f2;
-  margin-top: -25px; }
+  background-color: #f8f5f2; }
+
+.news__wrapper {
+  display: grid;
+  justify-content: center;
+  justify-items: center; }
 
 .news__title {
   font-size: 30px;
@@ -233,5 +236,80 @@ body {
   font: 18px/27px 'Myriad Pro', sans-serif;
   margin: 0;
   width: 80%; }
+
+.news__to-all {
+  margin-bottom: 30px; }
+
+.button {
+  display: block;
+  width: 280px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 24px;
+  border: 1px solid #e5ddd5;
+  line-height: 50px;
+  color: black; }
+
+.reviews {
+  border-top: 1px solid #e5ddd5;
+  background: #f8f5f2 bottom/100% no-repeat url("../resources/img/img-opt/barbershop-index-mobile_02.png"); }
+
+.reviews__wrapper {
+  display: grid; }
+
+.reviews__title {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center; }
+
+.reviews__write {
+  display: none; }
+
+.reviews__item:not(:first-child) {
+  display: none; }
+
+.reviews__item.slider__item {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-auto-rows: min-content;
+  align-content: start;
+  align-items: start; }
+
+.reviews__autor-picture {
+  grid-area: 1/1/1/2;
+  margin: 0; }
+
+.reviews__author-name {
+  font-size: 24px; }
+
+.reviews__text {
+  grid-area: 2/2/2/3;
+  margin: 0;
+  margin-top: -20px; }
+
+.reviews__prev {
+  display: none; }
+
+.reviews__next {
+  display: none; }
+
+.reviews__toggles {
+  margin-bottom: 60px; }
+
+.reviews__toggles .slider__toggle {
+  visibility: hidden;
+  position: relative; }
+  .reviews__toggles .slider__toggle:after {
+    visibility: visible;
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    top: 2px;
+    left: 5px;
+    transform: rotate(45deg);
+    border: 2px solid black; }
 
 /*# sourceMappingURL=main.css.map */
