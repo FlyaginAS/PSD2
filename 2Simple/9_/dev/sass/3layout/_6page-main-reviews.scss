@@ -1,0 +1,79 @@
+.reviews{
+  border-top: 1px solid #e5ddd5 ;
+background:#f8f5f2  bottom/100% no-repeat url("../resources/img/img-opt/barbershop-index-mobile_02.png");
+}
+.reviews__wrapper{
+  display: grid;
+}
+.reviews__wrapper .slider{
+}
+.reviews__title{
+font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.reviews__write{
+display: none;
+}
+.reviews__list{
+
+}
+.slider__list{
+
+}
+.reviews__item{
+
+}
+.reviews__item:not(:first-child)
+{
+  display:none;
+}
+.reviews__item.slider__item{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-auto-rows: min-content;
+  align-content: start;
+  align-items: start;
+}
+.reviews__autor-picture{
+grid-area:1/1/1/2;
+  margin:0;
+}
+.reviews__autor-image{
+}
+.reviews__author-name{
+font-size: 24px;
+}
+.reviews__text{
+grid-area: 2/2/2/3;
+  margin:0;
+  margin-top: -20px;
+}
+.reviews__prev{
+  display: none;
+}
+.reviews__next{
+  display: none;
+}
+.reviews__toggles{
+margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+.reviews__toggles .slider__toggle{
+  visibility:hidden;
+  position: relative;
+  &:after{
+    visibility: visible;
+    position: absolute;
+    content:'';
+    display: inline-block;
+    width:7px;
+    height:7px;
+    top:2px;
+    left: 5px;
+    transform: rotate(45deg);
+    border: 2px solid black;
+  }
+
+}
