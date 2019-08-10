@@ -1,0 +1,25 @@
+.page-footer__contacts{
+}
+.contacts{
+  display:grid;
+  justify-items: center;
+ }
+.contacts__title{
+
+}
+.contacts__text{
+  width:70%;
+  text-align: center;
+}
+.contacts__phone{
+  display:block;
+  font-size: 18px;
+  line-height: 50px;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #3e3e3e;
+  margin-top: 25px;
+}
+.contacts__phone-mobile{
+display: none;
+}

@@ -314,4 +314,87 @@ body {
     transform: rotate(45deg);
     border: 2px solid black; }
 
+.page-footer {
+  background-color: #292929;
+  min-width: 320px;
+  font: 18px/27px 'Myriad Pro', sans-serif;
+  color: white;
+  padding-top: 40px; }
+
+.contacts {
+  display: grid;
+  justify-items: center; }
+
+.contacts__text {
+  width: 70%;
+  text-align: center; }
+
+.contacts__phone {
+  display: block;
+  font-size: 18px;
+  line-height: 50px;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #3e3e3e;
+  margin-top: 25px; }
+
+.contacts__phone-mobile {
+  display: none; }
+
+.social__title {
+  display: none; }
+
+.social__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-items: center;
+  justify-content: center; }
+
+.social__item {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #3f3f3f; }
+
+.social__item:nth-child(2) {
+  border-left: none;
+  border-right: none; }
+
+.social__link {
+  visibility: hidden;
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 100px; }
+  .social__link:before {
+    content: '';
+    visibility: visible;
+    display: inline-block;
+    width: 100px;
+    height: 100px; }
+
+.social__link_vkontakte:before {
+  background: url("../resources/img/img-opt/vk-icon-big.png") no-repeat center; }
+
+.social__link_facebook:before {
+  background: url("../resources/img/img-opt/facebook-icon-big.png") no-repeat center; }
+
+.social__link_instagram:before {
+  background: url("../resources/img/img-opt/insta-icon-big.png") no-repeat center; }
+
+.page-footer__copyright {
+  padding-top: 35px;
+  padding-bottom: 25px; }
+
+.copyright {
+  display: grid;
+  justify-items: center; }
+
+.copyright__text {
+  margin-bottom: 20px; }
+
+.copyright__link {
+  color: white; }
+
 /*# sourceMappingURL=main.css.map */
