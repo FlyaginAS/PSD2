@@ -54,15 +54,104 @@ body{
 }
 .site-list__item{
   display: none;
-}
-.site-list__item_active{
-  display: block;
   text-transform: uppercase;
   color: white;
   font-size: 18px;
   line-height: 1;
+  a{
+    text-decoration: none;
+    color: white;
+  }
+}
+.site-list__item_active{
+  display: block;
   width:content-box;
 }
 .user-list{
   display: none;
+}
+/****************************TABLET***********************************************************/
+@media all and (min-width: 768px) {
+  .page-header{
+    min-height: 470px;
+    background: black no-repeat   url("../resources/img/img-opt/back-tablet.jpg");
+    background-size: 100%;
+    display: flex;
+    flex-flow: column;
+  }
+  .page-header__logo{
+  height: auto;
+    order:2;
+    margin-top: 50px;
+  }
+  .page-header__logo-image{
+    content: url("../resources/img/img-opt/logotype-tablet.svg");
+  }
+  .main-nav{
+    min-height: 70px;
+    background-color: black;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
+  }
+  .main-nav__toggle{
+    display: none;
+    &:after{
+    }
+  }
+  .main-nav__wrapper{
+    padding: 0 65px;
+    order:1;
+    min-height: 70px;
+    background-color: black;
+    display: flex;
+    width:100%;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  .main-nav__list {
+  }
+  .site-list{
+    width:90%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin:0;
+  }
+  .site-list__item{
+    display: block;
+    letter-spacing: -1px;
+    font-size: 16px;
+    line-height: 70px;
+  }
+  .site-list__item_active{
+    border-bottom: 3px solid #826550;
+  }
+  .user-list{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding:0;
+    margin:0;
+  }
+  .user-list__item{
+    display: flex;
+    align-content: center;
+  }
+.user-list__login{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: -2px;
+  position: relative;
+  &:before{
+    content: url("../resources/img/img-opt/login.svg");
+    display: inline-block;
+    position: absolute;
+    left:-20px;
+  }
+  a{
+  }
+}
 }

@@ -50,19 +50,98 @@ body {
   padding-left: 0; }
 
 .site-list__item {
-  display: none; }
-
-.site-list__item_active {
-  display: block;
+  display: none;
   text-transform: uppercase;
   color: white;
   font-size: 18px;
-  line-height: 1;
+  line-height: 1; }
+  .site-list__item a {
+    text-decoration: none;
+    color: white; }
+
+.site-list__item_active {
+  display: block;
   width: content-box; }
 
 .user-list {
   display: none; }
 
+/****************************TABLET***********************************************************/
+@media all and (min-width: 768px) {
+  .page-header {
+    min-height: 470px;
+    background: black no-repeat url("../resources/img/img-opt/back-tablet.jpg");
+    background-size: 100%;
+    display: flex;
+    flex-flow: column; }
+
+  .page-header__logo {
+    height: auto;
+    order: 2;
+    margin-top: 50px; }
+
+  .page-header__logo-image {
+    content: url("../resources/img/img-opt/logotype-tablet.svg"); }
+
+  .main-nav {
+    min-height: 70px;
+    background-color: black;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch; }
+
+  .main-nav__toggle {
+    display: none; }
+
+  .main-nav__wrapper {
+    padding: 0 65px;
+    order: 1;
+    min-height: 70px;
+    background-color: black;
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-between; }
+
+  .site-list {
+    width: 90%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 0; }
+
+  .site-list__item {
+    display: block;
+    letter-spacing: -1px;
+    font-size: 16px;
+    line-height: 70px; }
+
+  .site-list__item_active {
+    border-bottom: 3px solid #826550; }
+
+  .user-list {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0; }
+
+  .user-list__item {
+    display: flex;
+    align-content: center; }
+
+  .user-list__login {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: -2px;
+    position: relative; }
+    .user-list__login:before {
+      content: url("../resources/img/img-opt/login.svg");
+      display: inline-block;
+      position: absolute;
+      left: -20px; } }
 .page-main {
   min-width: 320px; }
 
@@ -122,6 +201,78 @@ body {
   background-color: #242424;
   padding-top: 20px; }
 
+/*TABLET************************************************************************************************/
+@media all and (min-width: 768px) {
+  /*stats header*/
+  .stats {
+    margin-top: -178px; }
+
+  .stats__header {
+    width: 640px;
+    height: min-content;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: min-content;
+    align-items: start;
+    padding-top: 40px;
+    background-color: white; }
+
+  .stats__legend {
+    display: block;
+    font: 20px 'Myriad Pro', sans-serif;
+    color: #c5c5c5;
+    margin-left: 40px;
+    margin-bottom: 35px; }
+
+  .stats__slogan {
+    text-align: left;
+    margin: 0;
+    margin-left: 40px; }
+
+  .stats__intro {
+    text-align: left;
+    margin: 0;
+    width: 235px;
+    margin-left: 40px;
+    margin-top: -5px; }
+
+  /*Stats list*/
+  .stats__list {
+    width: 640px;
+    margin: 0 auto;
+    background: #353535;
+    background-clip: border-box; }
+    .stats__list tbody {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: min-content; }
+      .stats__list tbody tr:first-child {
+        background-color: #404040; }
+      .stats__list tbody tr:nth-child(2) {
+        background-color: #4e4e4e; }
+      .stats__list tbody tr:nth-child(3) {
+        background-color: #353535; }
+      .stats__list tbody tr:nth-child(4) {
+        background-color: #404040; }
+      .stats__list tbody tr {
+        display: grid;
+        padding-top: 20px;
+        padding-bottom: 20px; }
+      .stats__list tbody td {
+        padding: 0;
+        padding-left: 40px; }
+
+  .stats__value {
+    font-size: 72px;
+    text-align: left; }
+
+  .stats__field {
+    font-size: 20px;
+    text-align: left; }
+
+  .stats__legend_bottom {
+    display: none; } }
 .advantages {
   margin-top: -31px;
   height: 400px;
@@ -189,6 +340,15 @@ body {
     transform: rotate(45deg);
     border: 2px solid #f7f4f1; }
 
+/*TABLET***********************************************************************************/
+@media all and (min-width: 768px) {
+  .advantages {
+    background-color: #353535;
+    margin-top: -365px;
+    padding-top: 365px; }
+
+  .advantages__item_cool, .advantages__item_price {
+    display: none; } }
 .news {
   background-color: #f8f5f2; }
 

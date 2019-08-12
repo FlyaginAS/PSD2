@@ -56,3 +56,87 @@ font-size:40px;
     background-color: #242424;
   padding-top: 20px;
 }
+/*TABLET************************************************************************************************/
+@media all and(min-width: 768px) {
+  /*stats header*/
+  .stats{
+    margin-top: -178px;
+  }
+  .stats__header{
+    width: 640px;
+    height:min-content;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: min-content;
+    align-items: start;
+    padding-top: 40px;
+    background-color: white;
+
+  }
+  .stats__legend {
+    display: block;
+    font: 20px 'Myriad Pro', sans-serif;
+    color: #c5c5c5;
+    margin-left:40px;
+    margin-bottom: 35px;
+  }
+  .stats__slogan{
+    text-align: left;
+    margin:0;
+    margin-left:40px;
+  }
+  .stats__intro{
+    text-align: left;
+    margin:0;
+    width: 235px;
+    margin-left:40px;
+    margin-top:-5px;
+  }
+
+  /*Stats list*/
+  .stats__list{
+    width:640px;
+    margin:0 auto;
+    background:  #353535;
+    background-clip: border-box;
+    tbody{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: min-content;
+      tr:first-child{
+        background-color:#404040;
+      }
+      tr:nth-child(2){
+        background-color: #4e4e4e;
+      }
+      tr:nth-child(3){
+        background-color: #353535;
+      }
+      tr:nth-child(4){
+        background-color: #404040;
+      }
+      tr{
+        display: grid;
+        padding-top:20px;
+        padding-bottom: 20px;
+      }
+      td{
+        padding:0;
+        padding-left: 40px;
+      }
+    }
+  }
+  .stats__value{
+    font-size: 72px;
+    text-align: left;
+  }
+  .stats__field{
+    font-size: 20px;
+    text-align: left;
+  }
+  .stats__legend_bottom{
+    display: none;
+  }
+
+}
