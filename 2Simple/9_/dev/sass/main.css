@@ -471,6 +471,20 @@ body {
   line-height: 50px;
   color: black; }
 
+@media all and (min-width: 768px) {
+  .news__wrapper {
+    width: 640px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); }
+
+  .news__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 40px; }
+
+  .news__item {
+    border-bottom: none; } }
 .reviews {
   border-top: 1px solid #e5ddd5;
   background: #f8f5f2 bottom/100% no-repeat url("../resources/img/img-opt/barbershop-index-mobile_02.png"); }
