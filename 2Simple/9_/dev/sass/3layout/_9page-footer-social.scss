@@ -57,3 +57,21 @@ display: none;
   }
 
 }
+@media all and(min-width: 768px) {
+  .page-footer__social{
+    grid-row:2;
+    grid-column: 1/-1;
+    justify-self: stretch;
+  }
+  .social__item{
+    width:100%;
+  }
+  .social__link{
+
+    width: 100%;
+    &:before{
+      width:100%;
+    }
+  }
+
+}

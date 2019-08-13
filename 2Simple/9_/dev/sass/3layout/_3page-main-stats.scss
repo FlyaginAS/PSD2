@@ -140,3 +140,31 @@ font-size:40px;
   }
 
 }
+/*DESKTOP************************************************************************************************/
+@media all and(min-width: 1024px) {
+.stats{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin:0;
+  position:relative;
+  top: -182px;
+}
+  .stats__header{
+    grid-template-columns: 1fr;
+    width: 320px;
+    margin:0;
+    height: inherit;
+    align-self: stretch;
+  }
+  .stats__slogan{
+    margin-bottom:20px;
+  }
+.stats__intro{
+  margin-bottom: 20px;
+
+}
+  .stats__list{
+    margin:0;
+  }
+}
