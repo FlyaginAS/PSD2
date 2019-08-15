@@ -5,9 +5,97 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="sass/main.css">
+    <link rel="stylesheet" href="sass/form.css">
 </head>
 <body>
+<header class="page-header ">
+    <a href="#" class="page-header__logo">
+        <img class="page-header__logo-image" src="resources/img/img-opt/logotype-mobile.svg" alt="Barbershop"  >
+    </a>
+    <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+            <ul class="main-nav__list site-list">
+                <li class="site-list__item site-list__item_active"><a>Главная</a></li>
+                <li class="site-list__item"><a href="#">Наши работы</a></li>
+                <li class="site-list__item"><a href="#">Записаться</a></li>
+                <li class="site-list__item"><a href="#">Контакты</a></li>
+                <li class="site-list__item"><a href="#">HTML Academy</a></li>
+            </ul>
+            <ul class="main-nav__list user-list">
+                <li class="user-list__item">
+                    <a class="user-list__login" href="login.html">Войти</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main class="page-main">
+    <form action="" class="page-main__form form ">
+        <header class="form__header ">
+            <h2 class="header-form__title">Запись на стрижку</h2>
+            <a href="index.html" class="header-form__button button" title="На главную">На главную</a>
+        </header>
+        <section class="form__user-contacts ">
+            <div class="form__user-name-wrapper">
+                <input type="text" class="form__user-name" placeholder="Имя">
+                <input type="text" class="form__user-surname" placeholder="Фамилия">
+                <input type="text" class="form__user-patronimic" placeholder="Отчество">
+            </div>
+            <div class="form__user-contacts-wrapper">
+                <input type="tel" class="form__user-tel" placeholder="Контактный телефон">
+                <input type="email" class="form__user-mail" placeholder="Контакнтый  e-mail">
+            </div>
+            <div class="form__user-text-wrapper">
+                <textarea name="addition" id="text"  placeholder="Доп. информация для мастера"></textarea>
+
+            </div>
+        </section>
+        <section class="form__beard-model ">
+
+        </section>
+        <section class="form__additional-services ">
+
+        </section>
+        <section class="form__submit ">
+
+        </section>
+    </form>
+</main>
+<footer class="page-footer">
+    <div class="page-footer__wrapper">
+        <div class="page-footer__contacts contacts">
+            <b class="contacts__title">Барбершоп Бородинский</b>
+            <p class="contacts__text">
+                г. Санкт-Петербург, ул. Большая Конюшенная 19/8 <br>
+                <a href="tel:+78125556666" class="contacts__phone">
+                    <span class="contacts__phone-mobile">Тел.: </span>+7 (812) 555-66-66
+                </a>
+            </p>
+        </div>
+        <div class="page-footer__social social">
+            <b class="social__title">Давайте Дружить!</b>
+            <ul class="social__list">
+                <li class="social__item">
+                    <a href="#" class="social__link social__link_vkontakte">Мы в Вконтакте</a>
+                </li>
+                <li class="social__item">
+                    <a href="#" class="social__link social__link_facebook">Мы в Фейсбуке</a>
+                </li>
+                <li class="social__item">
+                    <a href="#" class="social__link social__link_instagram">Мы в Инстаграмме</a>
+                </li>
+            </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+            <b class="copyright__text">Разработано:</b>
+            <a href="#" class="copyright__link button">HTML Academy</a>
+        </div>
+
+    </div>
+</footer>
 
 </body>
 </html>
