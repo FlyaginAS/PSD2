@@ -25,7 +25,7 @@
             </ul>
             <ul class="main-nav__list user-list">
                 <li class="user-list__item">
-                    <a class="user-list__login" href="login.html">Войти</a>
+                    <a class="user-list__login" href="#">Войти</a>
                 </li>
             </ul>
 
@@ -40,16 +40,16 @@
         </header>
         <section class="form__user-contacts ">
             <div class="form__user-name-wrapper">
-                <input type="text" class="form__user-name" placeholder="Имя">
-                <input type="text" class="form__user-surname" placeholder="Фамилия">
-                <input type="text" class="form__user-patronimic" placeholder="Отчество">
+                <input type="text" class="form__user-name user-input" placeholder="Имя">
+                <input type="text" class="form__user-surname user-input" placeholder="Фамилия">
+                <input type="text" class="form__user-patronimic user-input" placeholder="Отчество">
             </div>
             <div class="form__user-contacts-wrapper">
-                <input type="tel" class="form__user-tel" placeholder="Контактный телефон">
-                <input type="email" class="form__user-mail" placeholder="Контакнтый  e-mail">
+                <input type="tel" class="form__user-tel user-input" placeholder="Контактный телефон">
+                <input type="email" class="form__user-mail user-input" placeholder="Контакнтый  e-mail">
             </div>
             <div class="form__user-text-wrapper">
-                <textarea name="addition" id="text"  placeholder="Доп. информация для мастера"></textarea>
+                <textarea name="addition" id="text"  placeholder="Доп. информация для мастера" class="form__user-text user-input"></textarea>
 
             </div>
         </section>
@@ -58,7 +58,7 @@
                 <legend class="form__beard-model-legend">выберите модель бороды</legend>
                 <ul class="beard-list">
                     <li class="beard-list__item">
-                        <input type="radio" id="admiral" class="beared-list__item-input beared-list__item-input beared-list__item-input-checked">
+                        <input type="radio" id="admiral" class="beared-list__item-input  beared-list__item-input-checked">
                         <label for="admiral" class="beared-list__item-label beared-list__item-label_admiral">адмирал</label>
                     </li>
                     <li class="beard-list__item">
@@ -85,34 +85,34 @@
                 <legend class="form__additional-services-legend">Дополнительные услуги</legend>
                 <ul class="services__list">
                     <li class="services__item">
-                        <input type="text" id="1" class="services__item-input services__item-input_checked">
+                        <input type="checkbox" id="1" class="services__item-input services__item-input_checked">
                         <label for="1" class="services__item-label ">Подкрасить бороду</label>
                     </li>
                     <li class="services__item">
-                        <input type="text" id="2" class="services__item-input ">
+                        <input type="checkbox" id="2" class="services__item-input ">
                         <label for="2" class="services__item-label ">Накрутить усы</label>
                     </li>
                     <li class="services__item">
-                        <input type="text" id="3" class="services__item-input ">
+                        <input type="checkbox" id="3" class="services__item-input ">
                         <label for="3" class="services__item-label ">Причесать бороду</label>
                     </li>
                     <li class="services__item">
-                        <input type="text" id="4" class="services__item-input ">
+                        <input type="checkbox" id="4" class="services__item-input ">
                         <label for="4" class="services__item-label ">Подровнять виски</label>
                     </li>
                     <li class="services__item">
-                        <input type="text" id="5" class="services__item-input ">
+                        <input type="checkbox" id="5" class="services__item-input ">
                         <label for="5" class="services__item-label ">Убрать седину</label>
                     </li>
                     <li class="services__item">
-                        <input type="text" id="6" class="services__item-input ">
+                        <input type="checkbox" id="6" class="services__item-input ">
                         <label for="6" class="services__item-label ">Отполировать лысину</label>
                     </li>
                 </ul>
             </fieldset>
         </section>
         <section class="form__submit ">
-
+            <button class="form__submit-button button">Отправить заявку</button>
         </section>
     </form>
 </main>
