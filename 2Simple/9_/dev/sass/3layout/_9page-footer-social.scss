@@ -5,7 +5,7 @@
 
 }
 .social__title{
-display: none;
+  display: none;
 }
 .social__list{
   list-style-type: none;
@@ -74,4 +74,31 @@ display: none;
     }
   }
 
+}
+@media all and(min-width: 1024px) {
+  .page-footer__wrapper{
+    align-items: start;
+  }
+  .social__link{
+    &:before{
+      width:50px;
+      height: 50px;
+    }
+  }
+  .social__item{
+    width:50px;
+    height: 50px;
+  }
+  .page-footer__social{
+    grid-row: 1;
+    grid-column:2/4;
+  }
+  .page-footer__contacts{
+    grid-row:1;
+    grid-column:1/2;
+  }
+.social__title{
+  display: block;
+  text-align: center;
+}
 }

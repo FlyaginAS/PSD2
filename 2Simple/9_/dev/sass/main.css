@@ -566,6 +566,7 @@ body {
   line-height: 50px;
   color: black; }
 
+/*TABLET**********************************************************************************************/
 @media all and (min-width: 768px) {
   .news__wrapper {
     width: 640px;
@@ -595,6 +596,17 @@ body {
     order: 2;
     grid-column: 4/5;
     grid-row: 1; } }
+/*DESKTOP**********************************************************************************************/
+@media all and (min-width: 1024px) {
+  .news__wrapper {
+    width: 960px; }
+
+  .news__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+
+  .news__list li:not(:first-child):not(:nth-child(2)) {
+    display: flex; } }
 .reviews {
   border-top: 1px solid #e5ddd5;
   background: #f8f5f2 bottom/100% no-repeat url("../resources/img/img-opt/barbershop-index-mobile_02.png"); }
@@ -658,6 +670,7 @@ body {
     transform: rotate(45deg);
     border: 2px solid black; }
 
+/*TABLET************************************************************************************************/
 @media all and (min-width: 768px) {
   .reviews {
     border-top: 1px solid #e5ddd5;
@@ -742,6 +755,10 @@ body {
     padding: 10px;
     margin-top: -19px;
     background-color: #f8f5f2; } }
+/*DESKTOP************************************************************************************************/
+@media all and (min-width: 1024px) {
+  .reviews__wrapper {
+    width: 960px; } }
 .page-footer {
   background-color: #292929;
   min-width: 320px;
@@ -784,6 +801,25 @@ body {
   .page-footer__copyright {
     grid-column: 4/5;
     grid-row: 1; } }
+@media all and (min-width: 1024px) {
+  .page-footer__wrapper {
+    width: 960px; }
+
+  .contacts {
+    justify-items: start; }
+    .contacts * {
+      margin: 0;
+      padding: 0; }
+
+  .contacts__text {
+    text-align: start; }
+
+  .contacts__phone {
+    border: none; }
+
+  .copyright__link {
+    transform: scale(0.7);
+    margin-top: -10px; } }
 .social__title {
   display: none; }
 
@@ -839,6 +875,29 @@ body {
     width: 100%; }
     .social__link:before {
       width: 100%; } }
+@media all and (min-width: 1024px) {
+  .page-footer__wrapper {
+    align-items: start; }
+
+  .social__link:before {
+    width: 50px;
+    height: 50px; }
+
+  .social__item {
+    width: 50px;
+    height: 50px; }
+
+  .page-footer__social {
+    grid-row: 1;
+    grid-column: 2/4; }
+
+  .page-footer__contacts {
+    grid-row: 1;
+    grid-column: 1/2; }
+
+  .social__title {
+    display: block;
+    text-align: center; } }
 .page-footer__copyright {
   padding-top: 35px;
   padding-bottom: 25px; }
@@ -852,5 +911,10 @@ body {
 
 .copyright__link {
   color: white; }
+
+@media all and (min-width: 1024px) {
+  .page-footer__copyright {
+    padding: 0;
+    margin: 0; } }
 
 /*# sourceMappingURL=main.css.map */

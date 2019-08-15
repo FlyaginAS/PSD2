@@ -77,6 +77,7 @@ margin-bottom: 60px;
   }
 
 }
+/*TABLET************************************************************************************************/
 @media all and(min-width: 768px) {
   .reviews{
     border-top: 1px solid #e5ddd5 ;
@@ -169,4 +170,11 @@ margin-bottom: 60px;
 
 
 
+}
+/*DESKTOP************************************************************************************************/
+@media all and (min-width: 1024px){
+  .reviews__wrapper{
+    width: 960px;
+
+  }
 }

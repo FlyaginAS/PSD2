@@ -17,7 +17,7 @@ list-style: none;
 padding:0;
 }
 .news__list li:not(:first-child):not(:nth-child(2)){
-  display:none;
+  display: none;
 }
 .news__item{
   padding:10px 0;
@@ -65,6 +65,7 @@ margin-bottom:30px;
   line-height: 50px;
   color: black;
 }
+/*TABLET**********************************************************************************************/
 @media all and(min-width: 768px) {
   .news{
   }
@@ -115,4 +116,18 @@ margin-bottom:30px;
   .button{
   }
 
+}
+/*DESKTOP**********************************************************************************************/
+@media all and (min-width: 1024px){
+  .news__wrapper{
+    width: 960px;
+  }
+  .news__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .news__list li:not(:first-child):not(:nth-child(2)){
+    display: flex;
+
+  }
 }

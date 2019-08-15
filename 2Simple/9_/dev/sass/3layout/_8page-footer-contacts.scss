@@ -40,3 +40,25 @@ display: none;
     grid-row:1;
   }
 }
+@media all and(min-width: 1024px) {
+  .page-footer__wrapper{
+    width: 960px;
+  }
+  .contacts{
+    justify-items: start;
+    *{
+      margin:0;
+      padding:0;
+    }
+  }
+  .contacts__text{
+    text-align: start;
+  }
+  .contacts__phone{
+    border:none;
+  }
+  .copyright__link{
+    transform: scale(0.7);
+    margin-top:-10px;
+  }
+}
