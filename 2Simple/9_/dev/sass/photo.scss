@@ -1,0 +1,203 @@
+body{
+  background-color: #f8f5f2;
+
+}
+.page-main{
+  min-width: 280px;
+  width:282px;
+  margin:0 auto;
+  padding:0;
+}
+.main-header{
+
+}
+.main-header__title{
+  margin-top:0;
+  margin-bottom:0;
+  font-size:30px;
+  text-transform: uppercase;
+  padding:30px 0;
+  text-align: center;
+}
+.main-header__button{
+  display: none;
+}
+.review{
+  border: 1px solid #e5ddd5;
+  margin-bottom: 20px;
+}
+.review__photo{
+
+}
+.review__title{
+  font-size: 24px;
+  margin-left: 20px;
+}
+.review__description{
+  font-size: 18px;
+  width: 225px;
+  margin-left:20px;
+}
+.review__options{
+  margin-left:20px;
+  display: flex;
+  flex-flow:row wrap;
+}
+.review__option{
+  display: inline-block;
+  position:relative;
+  text-transform: uppercase;
+  font-size:16px;
+  font-stretch: ultra-condensed;
+  padding-left:50px;
+
+  &:before{
+    position: absolute;
+    display: inline-block;
+    content:'';
+    width:50px;
+    height: 50px;
+    top:-20px;
+    left:-15px;
+  }
+}
+.review__option--scissors{
+  &:before{
+    background:  url("../resources/img/img-opt/scissors-icon1.svg") no-repeat center center;
+  }
+}
+.review__option--shaving{
+  margin-left:30px;
+  &:before{
+    background:  url("../resources/img/img-opt/mustache-icon.svg") no-repeat center center;
+    left:-10px;
+  }
+
+}
+.review__option--mustache{
+  margin-top:20px;
+  &:before{
+    background:  url("../resources/img/img-opt/beard-icon.svg") no-repeat center center;
+  }
+
+}
+/* стилизуем блок работа недели*/
+.review-work{
+
+}
+.review-work__photo{
+
+}
+.review-work__title{
+
+}
+.review-work__description{
+
+}
+.review-work__options{
+
+}
+/******tablet*************************************************************************/
+@media all and(min-width: 768px) {
+  .page-main{
+    min-width: 640px;
+  }
+  .main-header{
+    display: flex;
+    flex-flow:row nowrap;
+    align-content: baseline;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .main-header__button{
+    width: 160px;
+    font-size: 18px;
+  }
+  .main-header__title{
+  }
+  .main-header__button{
+    display: block;
+  }
+  .review{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height:300px;
+  }
+  .review__photo{
+  grid-column: 1;
+  }
+  .review__title{
+    grid-row:1;
+    grid-column: 2;
+  }
+  .review__description{
+    width: 280px;
+    margin-left:20px;
+    grid-column: 2;
+    grid-row:1;
+    margin-top:50px;
+  }
+  .review__options{
+    margin-left:20px;
+    display: flex;
+    flex-flow:row wrap;
+    grid-column: 2;
+    grid-row:1;
+margin-top: 150px;
+  }
+  .review__option{
+    display: inline-block;
+    position:relative;
+    text-transform: uppercase;
+    font-size:16px;
+    font-stretch: ultra-condensed;
+    padding-left:50px;
+
+    &:before{
+      position: absolute;
+      display: inline-block;
+      content:'';
+      width:50px;
+      height: 50px;
+      top:-20px;
+      left:-15px;
+    }
+  }
+  .review__option--scissors{
+    &:before{
+      background:  url("../resources/img/img-opt/scissors-icon1.svg") no-repeat center center;
+    }
+  }
+  .review__option--shaving{
+    margin-left:30px;
+    &:before{
+      background:  url("../resources/img/img-opt/mustache-icon.svg") no-repeat center center;
+      left:-10px;
+    }
+
+  }
+  .review__option--mustache{
+    margin-top:20px;
+    &:before{
+      background:  url("../resources/img/img-opt/beard-icon.svg") no-repeat center center;
+    }
+
+  }
+  /* стилизуем блок работа недели*/
+  .review-work{
+
+  }
+  .review-work__photo{
+
+  }
+  .review-work__title{
+
+  }
+  .review-work__description{
+
+  }
+  .review-work__options{
+
+  }
+
+}
